@@ -31,6 +31,7 @@
 		BCBCF2A42A59800900EF0995 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF2A32A59800900EF0995 /* Scene.swift */; };
 		BCBCF2A72A59810900EF0995 /* SandboxScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF2A62A59810900EF0995 /* SandboxScene.swift */; };
 		BCBCF2AA2A59820500EF0995 /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF2A92A59820500EF0995 /* SceneManager.swift */; };
+		BCBCF2AC2A59860700EF0995 /* BackgroundScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF2AB2A59860700EF0995 /* BackgroundScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		BCBCF2A32A59800900EF0995 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		BCBCF2A62A59810900EF0995 /* SandboxScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxScene.swift; sourceTree = "<group>"; };
 		BCBCF2A92A59820500EF0995 /* SceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneManager.swift; sourceTree = "<group>"; };
+		BCBCF2AB2A59860700EF0995 /* BackgroundScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 		BCBCF2A22A597FFD00EF0995 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				BCBCF2AB2A59860700EF0995 /* BackgroundScene.swift */,
 				BCBCF2A32A59800900EF0995 /* Scene.swift */,
 				BCBCF2A62A59810900EF0995 /* SandboxScene.swift */,
 			);
@@ -276,6 +279,7 @@
 				BCBCF2862A58C04400EF0995 /* RenderPipelineDescriptorLibrary.swift in Sources */,
 				BC255B112A588B800047169A /* Shaders.metal in Sources */,
 				BCBCF2A42A59800900EF0995 /* Scene.swift in Sources */,
+				BCBCF2AC2A59860700EF0995 /* BackgroundScene.swift in Sources */,
 				BCBCF2852A58C04400EF0995 /* ShaderLibrary.swift in Sources */,
 				BCBCF27F2A58C01A00EF0995 /* Preferences.swift in Sources */,
 				BCBCF2962A594F1200EF0995 /* MeshLibrary.swift in Sources */,

@@ -26,8 +26,6 @@ class GameObject: Node {
         self.scale = SIMD3<Float>(repeating: cos(time))
         
         updateModelConstants()
-//        print(time)
-//        print(deltaPosition)
     }
     
     private func updateModelConstants() {

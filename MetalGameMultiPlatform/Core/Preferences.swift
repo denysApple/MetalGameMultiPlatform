@@ -13,6 +13,6 @@ class Preferences {
     
     public static var MainPixelFormat: MTLPixelFormat = MTLPixelFormat.bgra8Unorm
     
-    public static var StartingScene: SceneTypes = .Sandbox
+    public static var StartingScene: SceneTypes = .Background
     
 }
