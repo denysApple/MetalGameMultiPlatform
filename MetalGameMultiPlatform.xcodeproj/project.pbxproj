@@ -7,25 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC1C04A82A588EA700107EFF /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1C04A72A588EA700107EFF /* GameView.swift */; };
 		BC255B0A2A588B800047169A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC255B092A588B800047169A /* AppDelegate.swift */; };
-		BC255B0D2A588B800047169A /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC255B0C2A588B800047169A /* Renderer.swift */; };
 		BC255B0F2A588B800047169A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC255B0E2A588B800047169A /* GameViewController.swift */; };
 		BC255B112A588B800047169A /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = BC255B102A588B800047169A /* Shaders.metal */; };
 		BC255B142A588B800047169A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC255B122A588B800047169A /* Main.storyboard */; };
 		BC255B162A588B810047169A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC255B152A588B810047169A /* Assets.xcassets */; };
 		BC255B192A588B810047169A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC255B172A588B810047169A /* LaunchScreen.storyboard */; };
+		BCBCF27E2A58C01A00EF0995 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF27B2A58C01A00EF0995 /* Engine.swift */; };
+		BCBCF27F2A58C01A00EF0995 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF27C2A58C01A00EF0995 /* Preferences.swift */; };
+		BCBCF2802A58C01A00EF0995 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF27D2A58C01A00EF0995 /* Types.swift */; };
+		BCBCF2852A58C04400EF0995 /* ShaderLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF2812A58C04400EF0995 /* ShaderLibrary.swift */; };
+		BCBCF2862A58C04400EF0995 /* RenderPipelineDescriptorLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF2822A58C04400EF0995 /* RenderPipelineDescriptorLibrary.swift */; };
+		BCBCF2872A58C04400EF0995 /* RenderPipelineStateLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF2832A58C04400EF0995 /* RenderPipelineStateLibrary.swift */; };
+		BCBCF2882A58C04400EF0995 /* VertexDescriptorLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF2842A58C04400EF0995 /* VertexDescriptorLibrary.swift */; };
+		BCBCF2922A594BE800EF0995 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF2912A594BE800EF0995 /* GameObject.swift */; };
+		BCBCF2942A594D3C00EF0995 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF2932A594D3C00EF0995 /* Renderer.swift */; };
+		BCBCF2962A594F1200EF0995 /* MeshLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF2952A594F1200EF0995 /* MeshLibrary.swift */; };
+		BCBCF2982A59527000EF0995 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF2972A59527000EF0995 /* Player.swift */; };
+		BCBCF29A2A59530700EF0995 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF2992A59530700EF0995 /* Node.swift */; };
+		BCBCF29D2A5953B400EF0995 /* Renderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF29C2A5953B400EF0995 /* Renderable.swift */; };
+		BCBCF2A12A59734D00EF0995 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF2A02A59734D00EF0995 /* Math.swift */; };
+		BCBCF2A42A59800900EF0995 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF2A32A59800900EF0995 /* Scene.swift */; };
+		BCBCF2A72A59810900EF0995 /* SandboxScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF2A62A59810900EF0995 /* SandboxScene.swift */; };
+		BCBCF2AA2A59820500EF0995 /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCF2A92A59820500EF0995 /* SceneManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC1C04A72A588EA700107EFF /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		BC255B062A588B800047169A /* MetalGameMultiPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalGameMultiPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC255B092A588B800047169A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC255B0B2A588B800047169A /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
-		BC255B0C2A588B800047169A /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
 		BC255B0E2A588B800047169A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		BC255B102A588B800047169A /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		BC255B132A588B800047169A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC255B152A588B810047169A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC255B182A588B810047169A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCBCF27B2A58C01A00EF0995 /* Engine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		BCBCF27C2A58C01A00EF0995 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		BCBCF27D2A58C01A00EF0995 /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		BCBCF2812A58C04400EF0995 /* ShaderLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShaderLibrary.swift; sourceTree = "<group>"; };
+		BCBCF2822A58C04400EF0995 /* RenderPipelineDescriptorLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RenderPipelineDescriptorLibrary.swift; sourceTree = "<group>"; };
+		BCBCF2832A58C04400EF0995 /* RenderPipelineStateLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RenderPipelineStateLibrary.swift; sourceTree = "<group>"; };
+		BCBCF2842A58C04400EF0995 /* VertexDescriptorLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VertexDescriptorLibrary.swift; sourceTree = "<group>"; };
+		BCBCF2912A594BE800EF0995 /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		BCBCF2932A594D3C00EF0995 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		BCBCF2952A594F1200EF0995 /* MeshLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshLibrary.swift; sourceTree = "<group>"; };
+		BCBCF2972A59527000EF0995 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		BCBCF2992A59530700EF0995 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		BCBCF29C2A5953B400EF0995 /* Renderable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderable.swift; sourceTree = "<group>"; };
+		BCBCF2A02A59734D00EF0995 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		BCBCF2A32A59800900EF0995 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		BCBCF2A62A59810900EF0995 /* SandboxScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxScene.swift; sourceTree = "<group>"; };
+		BCBCF2A92A59820500EF0995 /* SceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +92,113 @@
 		BC255B082A588B800047169A /* MetalGameMultiPlatform */ = {
 			isa = PBXGroup;
 			children = (
+				BCBCF2A82A5981F800EF0995 /* Managers */,
+				BCBCF29F2A59734300EF0995 /* Maths */,
+				BCBCF2902A594BC600EF0995 /* Game */,
+				BCBCF27A2A58C01A00EF0995 /* Core */,
+				BCBCF2762A58BA7300EF0995 /* Display */,
+				BCBCF2752A58BA6E00EF0995 /* Libraries */,
+				BCBCF2742A58B8E700EF0995 /* Shaders */,
 				BC255B092A588B800047169A /* AppDelegate.swift */,
-				BC255B0B2A588B800047169A /* ShaderTypes.h */,
-				BC255B0C2A588B800047169A /* Renderer.swift */,
-				BC255B0E2A588B800047169A /* GameViewController.swift */,
-				BC255B102A588B800047169A /* Shaders.metal */,
-				BC255B122A588B800047169A /* Main.storyboard */,
 				BC255B152A588B810047169A /* Assets.xcassets */,
 				BC255B172A588B810047169A /* LaunchScreen.storyboard */,
 			);
 			path = MetalGameMultiPlatform;
+			sourceTree = "<group>";
+		};
+		BCBCF2742A58B8E700EF0995 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				BC255B102A588B800047169A /* Shaders.metal */,
+				BC255B0B2A588B800047169A /* ShaderTypes.h */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		BCBCF2752A58BA6E00EF0995 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BCBCF2822A58C04400EF0995 /* RenderPipelineDescriptorLibrary.swift */,
+				BCBCF2832A58C04400EF0995 /* RenderPipelineStateLibrary.swift */,
+				BCBCF2812A58C04400EF0995 /* ShaderLibrary.swift */,
+				BCBCF2842A58C04400EF0995 /* VertexDescriptorLibrary.swift */,
+				BCBCF2952A594F1200EF0995 /* MeshLibrary.swift */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		BCBCF2762A58BA7300EF0995 /* Display */ = {
+			isa = PBXGroup;
+			children = (
+				BC255B0E2A588B800047169A /* GameViewController.swift */,
+				BC255B122A588B800047169A /* Main.storyboard */,
+				BC1C04A72A588EA700107EFF /* GameView.swift */,
+				BCBCF2932A594D3C00EF0995 /* Renderer.swift */,
+			);
+			path = Display;
+			sourceTree = "<group>";
+		};
+		BCBCF27A2A58C01A00EF0995 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BCBCF27B2A58C01A00EF0995 /* Engine.swift */,
+				BCBCF27C2A58C01A00EF0995 /* Preferences.swift */,
+				BCBCF27D2A58C01A00EF0995 /* Types.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BCBCF2902A594BC600EF0995 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				BCBCF2992A59530700EF0995 /* Node.swift */,
+				BCBCF2A22A597FFD00EF0995 /* Scenes */,
+				BCBCF29E2A59546700EF0995 /* GameObjects */,
+				BCBCF29B2A5953A200EF0995 /* Protocols */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		BCBCF29B2A5953A200EF0995 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BCBCF29C2A5953B400EF0995 /* Renderable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BCBCF29E2A59546700EF0995 /* GameObjects */ = {
+			isa = PBXGroup;
+			children = (
+				BCBCF2972A59527000EF0995 /* Player.swift */,
+				BCBCF2912A594BE800EF0995 /* GameObject.swift */,
+			);
+			path = GameObjects;
+			sourceTree = "<group>";
+		};
+		BCBCF29F2A59734300EF0995 /* Maths */ = {
+			isa = PBXGroup;
+			children = (
+				BCBCF2A02A59734D00EF0995 /* Math.swift */,
+			);
+			path = Maths;
+			sourceTree = "<group>";
+		};
+		BCBCF2A22A597FFD00EF0995 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				BCBCF2A32A59800900EF0995 /* Scene.swift */,
+				BCBCF2A62A59810900EF0995 /* SandboxScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		BCBCF2A82A5981F800EF0995 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BCBCF2A92A59820500EF0995 /* SceneManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +272,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCBCF29D2A5953B400EF0995 /* Renderable.swift in Sources */,
+				BCBCF2862A58C04400EF0995 /* RenderPipelineDescriptorLibrary.swift in Sources */,
 				BC255B112A588B800047169A /* Shaders.metal in Sources */,
-				BC255B0D2A588B800047169A /* Renderer.swift in Sources */,
+				BCBCF2A42A59800900EF0995 /* Scene.swift in Sources */,
+				BCBCF2852A58C04400EF0995 /* ShaderLibrary.swift in Sources */,
+				BCBCF27F2A58C01A00EF0995 /* Preferences.swift in Sources */,
+				BCBCF2962A594F1200EF0995 /* MeshLibrary.swift in Sources */,
+				BCBCF27E2A58C01A00EF0995 /* Engine.swift in Sources */,
+				BCBCF2942A594D3C00EF0995 /* Renderer.swift in Sources */,
+				BCBCF2802A58C01A00EF0995 /* Types.swift in Sources */,
+				BCBCF2AA2A59820500EF0995 /* SceneManager.swift in Sources */,
+				BCBCF2882A58C04400EF0995 /* VertexDescriptorLibrary.swift in Sources */,
 				BC255B0F2A588B800047169A /* GameViewController.swift in Sources */,
+				BCBCF2A12A59734D00EF0995 /* Math.swift in Sources */,
+				BCBCF2922A594BE800EF0995 /* GameObject.swift in Sources */,
+				BCBCF29A2A59530700EF0995 /* Node.swift in Sources */,
 				BC255B0A2A588B800047169A /* AppDelegate.swift in Sources */,
+				BC1C04A82A588EA700107EFF /* GameView.swift in Sources */,
+				BCBCF2982A59527000EF0995 /* Player.swift in Sources */,
+				BCBCF2A72A59810900EF0995 /* SandboxScene.swift in Sources */,
+				BCBCF2872A58C04400EF0995 /* RenderPipelineStateLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,10 +453,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = den4iklvivua.MetalGameMultiPlatform;
+				PRODUCT_BUNDLE_IDENTIFIER = denysApple.MetalGameMultiPlatform;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "$(TARGET_NAME)/ShaderTypes.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(TARGET_NAME)/Shaders/ShaderTypes.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -335,10 +483,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = den4iklvivua.MetalGameMultiPlatform;
+				PRODUCT_BUNDLE_IDENTIFIER = denysApple.MetalGameMultiPlatform;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "$(TARGET_NAME)/ShaderTypes.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(TARGET_NAME)/Shaders/ShaderTypes.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
